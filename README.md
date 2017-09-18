@@ -86,6 +86,15 @@ serve my needs, and it does.
 		}
 	});
 
+	// Search Key 
+	domain.get_keys( prefix_key, null, null , (err,response) => {
+		if (err) {
+			console.log('ERROR: ' + err);
+			return;
+		}
+		return response; 
+	}
+
 ## Using Transactions
 
 	var mogile = require('mogile');
