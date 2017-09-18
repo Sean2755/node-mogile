@@ -1,3 +1,7 @@
+Thanks first auth Sean Hickey
+##=======================================
+This projoct was modified from https://github.com/headzoo/node-mogile.git,
+
 mogile - A MogileFS client for node.js
 ===========================================
 
